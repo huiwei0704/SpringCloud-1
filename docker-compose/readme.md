@@ -6,7 +6,7 @@ mysql、redis、rabbitmq
  
 `docker-compose up -d`
 
-rabbitmq默认账号密码：guest/guest
+rabbitmq默认账号密码：http://localhost:15672/  guest/guest
 mysql默认账号密码：root/root123
 
 ## 启动devops组件，如elasticsearch、zipkin、skywalking、kibana、grafana
@@ -17,7 +17,7 @@ mysql默认账号密码：root/root123
 
 `docker-compose -f docker-compose.yml -f docker-compose.nacos.yml up`
 
-默认账号密码：nacos/nacos
+默认账号密码：http://localhost:8848/nacos  nacos/nacos
 
 ## 启动监控类服务，如springboot-admin、sentinel-dashboard
 
