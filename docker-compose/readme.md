@@ -6,7 +6,9 @@ mysql、redis、rabbitmq
  
 `docker-compose up -d`
 
-rabbitmq默认账号密码：http://localhost:15672/  guest/guest mysql默认账号密码：root/root123
+rabbitmq默认账号密码：http://localhost:15672/  guest/guest
+
+mysql默认账号密码：root/root123
 
 ## 启动devops组件，如elasticsearch、zipkin、skywalking、kibana、grafana
 
